@@ -2,43 +2,49 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_ANIMIST_BIOMANCER_CHECK",
-    "recurrence": [ "30 minutes", "30 minutes" ],
+    "recurrence": [ "20 minutes", "20 minutes" ],
     "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "BIOMANCER" } ] },
+    "deactivate_condition": { "not": { "u_has_any_trait": [ "ANIMIST", "BIOMANCER" ] } },
     "effect": [ { "u_add_trait": "ANIMIST_BIOMANCER_ONLY" } ]
   },
   {
     "type": "effect_on_condition",
     "id": "EOC_ANIMIST_DRUID_CHECK",
-    "recurrence": [ "30 minutes", "30 minutes" ],
+    "recurrence": [ "20 minutes", "20 minutes" ],
     "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "DRUID" } ] },
+    "deactivate_condition": { "not": { "u_has_any_trait": [ "ANIMIST", "DRUID" ] } },
     "effect": [ { "u_add_trait": "ANIMIST_DRUID_ONLY" } ]
   },
   {
     "type": "effect_on_condition",
     "id": "EOC_ANIMIST_EARTHSHAPER_CHECK",
-    "recurrence": [ "30 minutes", "30 minutes" ],
+    "recurrence": [ "20 minutes", "20 minutes" ],
     "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "EARTHSHAPER" } ] },
+    "deactivate_condition": { "not": { "u_has_any_trait": [ "ANIMIST", "EARTHSHAPER" ] } },
     "effect": [ { "u_add_trait": "ANIMIST_EARTHSHAPER_ONLY" } ]
   },
   {
     "type": "effect_on_condition",
     "id": "EOC_ANIMIST_KELVINIST_CHECK",
-    "recurrence": [ "30 minutes", "30 minutes" ],
+    "recurrence": [ "20 minutes", "20 minutes" ],
     "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "KELVINIST" } ] },
+    "deactivate_condition": { "not": { "u_has_any_trait": [ "ANIMIST", "KELVINIST" ] } },
     "effect": [ { "u_add_trait": "ANIMIST_KELVINIST_ONLY" } ]
   },
   {
     "type": "effect_on_condition",
     "id": "EOC_ANIMIST_STORMSHAPER_CHECK",
-    "recurrence": [ "30 minutes", "30 minutes" ],
+    "recurrence": [ "20 minutes", "20 minutes" ],
     "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "STORMSHAPER" } ] },
+    "deactivate_condition": { "not": { "u_has_any_trait": [ "ANIMIST", "STORMSHAPER" ] } },
     "effect": [ { "u_add_trait": "ANIMIST_STORMSHAPER_ONLY" } ]
   },
   {
     "type": "effect_on_condition",
     "id": "EOC_ANIMIST_TECHNOMANCER_CHECK",
-    "recurrence": [ "30 minutes", "30 minutes" ],
+    "recurrence": [ "20 minutes", "20 minutes" ],
     "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "TECHNOMANCER" } ] },
+    "deactivate_condition": { "not": { "u_has_any_trait": [ "ANIMIST", "TECHNOMANCER" ] } },
     "effect": [ { "u_add_trait": "ANIMIST_TECHNOMANCER_ONLY" } ]
   }
 ]
