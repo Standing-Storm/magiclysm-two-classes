@@ -1,0 +1,44 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANIMIST_BIOMANCER_CHECK",
+    "recurrence": [ "30 minutes", "30 minutes" ],
+    "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "BIOMANCER" } ] },
+    "effect": [ { "u_add_trait": "ANIMIST_BIOMANCER_ONLY" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANIMIST_DRUID_CHECK",
+    "recurrence": [ "30 minutes", "30 minutes" ],
+    "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "DRUID" } ] },
+    "effect": [ { "u_add_trait": "ANIMIST_DRUID_ONLY" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANIMIST_EARTHSHAPER_CHECK",
+    "recurrence": [ "30 minutes", "30 minutes" ],
+    "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "EARTHSHAPER" } ] },
+    "effect": [ { "u_add_trait": "ANIMIST_EARTHSHAPER_ONLY" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANIMIST_KELVINIST_CHECK",
+    "recurrence": [ "30 minutes", "30 minutes" ],
+    "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "KELVINIST" } ] },
+    "effect": [ { "u_add_trait": "ANIMIST_KELVINIST_ONLY" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANIMIST_STORMSHAPER_CHECK",
+    "recurrence": [ "30 minutes", "30 minutes" ],
+    "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "STORMSHAPER" } ] },
+    "effect": [ { "u_add_trait": "ANIMIST_STORMSHAPER_ONLY" } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_ANIMIST_TECHNOMANCER_CHECK",
+    "recurrence": [ "30 minutes", "30 minutes" ],
+    "condition": { "and": [ { "u_has_trait": "ANIMIST" }, { "u_has_trait": "TECHNOMANCER" } ] },
+    "effect": [ { "u_add_trait": "ANIMIST_TECHNOMANCER_ONLY" } ]
+  }
+]
