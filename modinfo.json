@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "magiclysm_two_classes",
+    "name": "Magiclysm: Two Classes Only",
+    "authors": [ "Standing-Storm" ],
+    "description": "You can only select two Magiclysm classes instead of four.",
+    "category": "balance",
+    "dependencies": [ "dda", "magiclysm" ]
+  }
+]
